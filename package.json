@@ -8,8 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start-server": "node dist/server.js",
-    "dev-server": "nodemon dist/server.js"
+   
   },
   "dependencies": {
     "@aws-amplify/ui-react": "^6.5.5",
@@ -38,7 +37,7 @@
     "tsx": "^4.7.2",
     "typescript": "^5.4.5",
     "vite": "^5.4.10",
-    "nodemon": "^2.0.7"
+  
   }
 }
 
